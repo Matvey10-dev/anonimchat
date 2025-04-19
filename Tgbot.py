@@ -101,8 +101,6 @@ def text_message(message):
     bot.send_message(user.current_chat, f'Анонимное сообщение: {message.text}')
     bot.send_message(message.chat.id, 'Ваше сообщение доставлено')
 
-
-
 bot.infinity_polling()
 
    
